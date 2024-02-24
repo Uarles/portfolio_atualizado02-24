@@ -1,0 +1,105 @@
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+
+
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.logo .logo-uarles {
+    height: 80px;
+    width: 80px;
+}
+
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Roboto-Blackitalic';
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+main {
+    height: 600px;
+    display: flex;
+    position: relative;
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+
+}
+
+
+.imagem-fundo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+main .informacoes  {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+
+}
+
+main .informacoes {
+    margin-top: 20px;
+}
+
+
+main .informacoes .sobre-mim {
+    font-size: 20px;
+    padding: 10px;
+    padding: 0 80px;
+    margin-top: 20px;
+
+}
+
+main .informacoes .segundo-texto {
+    margin-top: 9px;
+}
+
+.qualificacao {
+    animation: vibrar 0.5s ease-in-out infinite both;
+    color: rgb(253, 253, 251);
+    text-align: center;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
