@@ -38,7 +38,7 @@ body {
 }
 
 main {
-    height: 600px;
+    height: 900px;
     display: flex;
     position: relative;
 }
@@ -76,7 +76,7 @@ main .informacoes .sobre-mim {
     font-size: 20px;
     padding: 10px;
     padding: 0 80px;
-    margin-top: 20px;
+    margin-top: 100px;
 
 }
 
@@ -85,6 +85,7 @@ main .informacoes .segundo-texto {
 }
 
 .qualificacao {
+    font-size: 40px;
     animation: vibrar 0.5s ease-in-out infinite both;
     color: rgb(253, 253, 251);
     text-align: center;
@@ -101,5 +102,32 @@ main .informacoes .segundo-texto {
         transform: scale(1);
     }
 }
+
+.experiencia .exper {
+    font-size: 40px;
+    color: #fff;
+    border: 6px solid blue;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 250px;
+
+}
+
+.experiencia .icone-experiencias {
+    display: block;
+}
+
+.experiencia .html {
+    width: 20px;
+    height: 20px;
+
+}
+
+.experiencia .css {
+    width: 20px;
+    height: 20px;
+
+}
+
 
 
