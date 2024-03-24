@@ -127,15 +127,19 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
     text-transform: uppercase;
-    transition: all .3s; 
+    width: 50%;
     transition: all .3s ease-in;
     
+}
+
+.experiencia .icone-html {
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
 }
 
 .experiencia .icone-html:hover {
@@ -145,36 +149,28 @@ main .informacoes .segundo-texto {
 .experiencia .html {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
+    margin: 0;
 
-}
-
-.experiencia .html-h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.experiencia .text-html {
-    flex-wrap: wrap;
 }
 
 .experiencia .text-html {
     font-family: 'Roboto-Medium';
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
     flex-direction: column;
-    transition: all .3s; 
-    transition: all .3s ease-in;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+
 }
 
 .experiencia .text-html.ativo {
+    display: flex;
     opacity: 1;
-    color: #fff;
 }
 
 .experiencia h2 {
-    margin-top: 42px;
     font-family: 'Roboto-Blackitalic';
     color: #fff;
 }
@@ -184,18 +180,21 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+
+}
+
+.experiencia .icone-css {
+    color: #fff;
+    width: 20%;
     cursor: pointer;
-
 }
 
-.experiencia .css-h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
 
 .experiencia .icone-css:hover {
     background-color:  rgb(42, 42, 53);
@@ -204,14 +203,22 @@ main .informacoes .segundo-texto {
 .experiencia .css {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .text-css {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-css.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 .experiencia .icone-javascript {
@@ -219,36 +226,45 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-javascript {
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
 
 .experiencia .icone-javascript:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .javascript-h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
 .experiencia .javascript {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .text-javascript {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
 }
 
+.experiencia .text-javascript.ativo {
+    display: flex;
+    opacity: 1;
+}
 
 
 
@@ -263,7 +279,6 @@ main .informacoes .segundo-texto {
 .experiencia .java {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .icone-java {
@@ -271,36 +286,47 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-java {
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
 
 
 .experiencia .icone-java:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .java-h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
 
 .experiencia .text-java {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-java.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 
 .experiencia .sql {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .icone-sql {
@@ -308,11 +334,18 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.experiencia .icone-sql {
+    color: #fff;
+    width: 20%;
     cursor: pointer;
-    margin-right: 10px;
 }
 
 
@@ -320,25 +353,26 @@ main .informacoes .segundo-texto {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .sql-h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 10px;
-}
-
 .experiencia .text-sql {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-sql.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 
 .experiencia .mysql {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .icone-mysql {
@@ -346,29 +380,40 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-mysql{
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
 
 
 .experiencia .icone-mysql:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .mysql-h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
 .experiencia .text-mysql {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-mysql.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 .experiencia .php-react-complementar {
@@ -382,11 +427,7 @@ main .informacoes .segundo-texto {
 .experiencia .php {
     width: 130px;
     height: 130px;
-    margin-top: 10px;
-}
 
-.php-h2 h2 {
-    margin-top: 50px;
 }
 
 .experiencia .icone-php {
@@ -394,36 +435,47 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-php {
+    color: #fff;
+    width: 20%;
+    height: 120px;
+    cursor: pointer;
+}
+
 
 
 .experiencia .icone-php:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .php-h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 10px;
-}
 
 .experiencia .text-php {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-php.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 .experiencia .react {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .icone-react {
@@ -431,36 +483,45 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-react{
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
 
 
 .experiencia .icone-react:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .react-h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 10px;
-}
-
 .experiencia .text-react {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-react.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 .experiencia .complementar {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
 }
 
 .experiencia .icone-complementar {
@@ -468,30 +529,40 @@ main .informacoes .segundo-texto {
     gap: 20px;
     border: 4px solid  rgb(42, 42, 53);
     background-color: black;
-    height: 150px;
-    width: 400px;
+    text-align: center;
     border-radius: 6px;
-    cursor: pointer;
-    margin-right: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
 }
+
+.experiencia .icone-complementar{
+    color: #fff;
+    width: 20%;
+    cursor: pointer;
+}
+
 
 
 .experiencia .icone-complementar:hover {
     background-color:  rgb(42, 42, 53);
 }
 
-.experiencia .complementar-h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 10px;
-}
-
 .experiencia .text-complementar {
     font-family: 'Roboto-Medium';
-    transition: all .3s ease-in;
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    transition: all .3s ease-in; 
     display: none;
     opacity: 0;
+}
+
+.experiencia .text-complementar.ativo {
+    display: flex;
+    opacity: 1;
 }
 
 
