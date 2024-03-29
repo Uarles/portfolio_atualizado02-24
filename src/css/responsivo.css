@@ -1,0 +1,356 @@
+@media (max-width: 1024px) {
+ 
+
+    .cabecalho .menu a {
+        font-size: 20px;
+    }
+
+    .logo .logo-uarles {
+        width: 50px;
+        height: 50px;
+    }
+
+    .qualificacao {
+        font-size: 30px;
+    }
+
+    main .informacoes .sobre-mim {
+
+        font-size: 18px;
+    }
+
+    .experiencia .exper {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .experiencia .exper .exper-titulo {
+        font-size: 20px;
+
+    }
+
+    .experiencia .icone-html, .experiencia .icone-css, .experiencia .icone-javascript, .experiencia .icone-java, .experiencia .icone-sql, .experiencia .icone-mysql, .experiencia .icone-php, .experiencia .icone-react, .experiencia .icone-complementar {
+
+        width: 200px;
+    }
+
+    .experiencia .html, .experiencia .css, .experiencia .javascript, .experiencia .java, .experiencia .sql, .experiencia .mysql, .experiencia .php, .experiencia .react, .experiencia .complementar  {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .experiencia h2 {
+        font-size: 12px;
+    }
+
+    .experiencia .text-html, .experiencia .text-css, .experiencia .text-javascript, .experiencia .text-java, .experiencia .text-sql, .experiencia .text-mysql, .experiencia .text-php, .experiencia .text-react, .experiencia .text-complementar {
+
+        font-size: 12px ;
+    }
+
+    .formacao .exper-formacao {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .formacao .exper-formacao .text-formacao {
+        font-size: 20px;
+    }
+
+    .formacao h2 {
+        font-size: 13px;
+    }
+
+    .projetos .exper-projetos {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .projetos .exper-projetos .text-projetos {
+        font-size: 20px;
+    }
+
+    .projetos a {
+        height: 80px;
+        font-size: 13px;
+    }
+
+    .projetos a:hover {
+        background-color: rgb(93, 93, 111);
+        font-family: "Roboto-Blackitalic";
+        color: #0b0b0b;
+        font-size: 20px;
+    
+    }
+
+    .contatos .exper-contatos {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .contatos .exper-contatos .text-contatos {
+        font-size: 20px;
+    }
+    
+    .contatos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contatos a {
+        align-items: center;
+    }
+
+    .contatos .redes-sociais {
+        margin-left: 340px;
+        margin-top: 35px;
+    }
+    
+    .contatos h1 {
+        font-size: 12px;
+    }
+
+ 
+}
+
+@media (max-width: 859px) {
+
+    main .informacoes .sobre-mim {
+
+        font-size: 15px;
+    }
+
+    .experiencia .exper {
+        margin-left: 260px;
+        width: 150px;
+    }
+
+    .experiencia .exper .exper-titulo {
+        font-size: 20px;
+
+    }
+
+    .experiencia .icone-html, .experiencia .icone-css, .experiencia .icone-javascript, .experiencia .icone-java, .experiencia .icone-sql, .experiencia .icone-mysql, .experiencia .icone-php, .experiencia .icone-react, .experiencia .icone-complementar {
+
+        width: 150px;
+    }
+
+    .experiencia .html, .experiencia .css, .experiencia .javascript, .experiencia .java, .experiencia .sql, .experiencia .mysql, .experiencia .php, .experiencia .react, .experiencia .complementar  {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .experiencia h2 {
+        font-size: 11px;
+    }
+
+    .experiencia .text-html, .experiencia .text-css, .experiencia .text-javascript, .experiencia .text-java, .experiencia .text-sql, .experiencia .text-mysql, .experiencia .text-php, .experiencia .text-react, .experiencia .text-complementar {
+
+        font-size: 11px ;
+    }
+
+    .formacao .exper-formacao {
+        margin-left: 260px;
+        width: 150px;
+    }
+
+
+    .formacao h2 {
+        font-size: 13px;
+    }
+    
+
+    .formacao .informatica-basica, .ensino-medio, .javascript, .sql, .react {
+        height: 98px;
+    }
+
+
+
+    .projetos .exper-projetos {
+        margin-left: 260px;
+        width: 150px;
+    }
+
+
+    .projetos a {
+        height: 50px;
+        font-size: 13px;
+    }
+
+    .projetos a:hover {
+        background-color: rgb(93, 93, 111);
+        font-family: "Roboto-Blackitalic";
+        color: #0b0b0b;
+        font-size: 15px;
+    
+    }
+
+    .contatos .exper-contatos {
+        margin-left: 260px;
+        width: 150px;
+    }
+
+    .contatos .exper-contatos .text-contatos {
+        font-size: 20px;
+    }
+    
+    .contatos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contatos a {
+        align-items: center;
+    }
+
+    .contatos .redes-sociais {
+        margin-left: 260px;
+        margin-top: 35px;
+    }
+    
+    .contatos h1 {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width: 629px) {
+    
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 5px;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 12px;
+    }
+
+    .cabecalho .menu {
+        gap: 3px;
+    }
+
+    .logo .logo-uarles {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sobre .imagem-fundo {
+        height: 500px;
+
+    }
+
+    .qualificacao {
+        font-size: 20px;
+    }
+
+    main .informacoes .sobre-mim {
+
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .experiencia .icone-experiencias {
+        margin-top: 2px;
+    }
+
+
+    .experiencia .exper {
+        margin-left: 150px;
+        width: 150px;
+    }
+
+
+    .experiencia .exper .exper-titulo {
+        font-size: 20px;
+
+    }
+
+    .experiencia .icone-html, .experiencia .icone-css, .experiencia .icone-javascript, .experiencia .icone-java, .experiencia .icone-sql, .experiencia .icone-mysql, .experiencia .icone-php, .experiencia .icone-react, .experiencia .icone-complementar {
+
+        width: 200px;
+    }
+
+    .experiencia .html, .experiencia .css, .experiencia .javascript, .experiencia .java, .experiencia .sql, .experiencia .mysql, .experiencia .php, .experiencia .react, .experiencia .complementar  {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .experiencia h2 {
+        font-size: 12px;
+    }
+
+    .experiencia .text-html, .experiencia .text-css, .experiencia .text-javascript, .experiencia .text-java, .experiencia .text-sql, .experiencia .text-mysql, .experiencia .text-php, .experiencia .text-react, .experiencia .text-complementar {
+
+        font-size: 12px ;
+    }
+
+    .formacao .exper-formacao {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .formacao .exper-formacao .text-formacao {
+        font-size: 20px;
+    }
+
+    .formacao h2 {
+        font-size: 13px;
+    }
+
+    .projetos .exper-projetos {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .projetos .exper-projetos .text-projetos {
+        font-size: 20px;
+    }
+
+    .projetos a {
+        height: 80px;
+        font-size: 13px;
+    }
+
+    .projetos a:hover {
+        background-color: rgb(93, 93, 111);
+        font-family: "Roboto-Blackitalic";
+        color: #0b0b0b;
+        font-size: 20px;
+    
+    }
+
+    .contatos .exper-contatos {
+        margin-left: 350px;
+        width: 150px;
+    }
+
+    .contatos .exper-contatos .text-contatos {
+        font-size: 20px;
+    }
+    
+    .contatos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contatos a {
+        align-items: center;
+    }
+
+    .contatos .redes-sociais {
+        margin-left: 340px;
+        margin-top: 35px;
+    }
+    
+    .contatos h1 {
+        font-size: 12px;
+    }
+
+ 
+}
