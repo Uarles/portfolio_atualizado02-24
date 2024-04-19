@@ -540,8 +540,6 @@ main .informacoes .segundo-texto {
     cursor: pointer;
 }
 
-
-
 .experiencia .icone-complementar:hover {
     background-color:  rgb(42, 42, 53);
 }
@@ -561,11 +559,6 @@ main .informacoes .segundo-texto {
     display: flex;
     opacity: 1;
 }
-
-
-
-
-
 .formacao {
     margin-top: 100px;
     padding: 0 80px;
