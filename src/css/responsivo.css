@@ -483,3 +483,51 @@
 
 
 }
+
+@media (max-width: 516px) {
+    .experiencia .exper {
+        margin-left: 90px;
+        align-items: center;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .experiencia .html-css-javascript, .experiencia .java-sql-mysql, .experiencia .php-react-complementar{
+        display: block;
+        margin-left: 60px;
+    }
+
+    .formacao .exper-formacao {
+        margin-left: 90px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .projetos .exper-projetos {
+        margin-left: 80px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .projetos .mario-xmen-lista, .projetos .one-aplicativo-gta {
+        display: block;
+       
+    }
+
+    .projetos a {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .contatos .exper-contatos {
+        margin-left: 90px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .contatos .redes-sociais {
+        margin-left: 90px;
+    }
+
+
+}
