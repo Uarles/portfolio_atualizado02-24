@@ -222,8 +222,6 @@
     .cabecalho {
         justify-content: center;
         flex-direction: column;
-        padding: 50px 0;
-        gap: 5px;
     }
 
     .cabecalho .menu li a {
@@ -357,16 +355,24 @@
     .cabecalho {
         justify-content: center;
         flex-direction: column;
-        padding: 50px 0;
-        gap: 5px;
+        margin: 0;
     }
 
     .cabecalho .menu li a {
-        font-size: 8px;
+        font-size: 11px;
     }
 
-    .cabecalho .menu {
-            }
+    .cabecalho .menu li {
+        width: 80px;
+    }
+
+    .cabecalho .menu .sobre {
+        margin-right: 35px;
+    }
+
+    .cabecalho .menu .contatos {
+        margin-right: 130px;
+    }
 
     .logo .logo-uarles {
         width: 40px;
@@ -383,4 +389,48 @@
         font-size: 15px;
         margin-top: 15px;
     }
+
+    .experiencia .exper {
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .experiencia .html-css-javascript, .experiencia .java-sql-mysql, .experiencia .php-react-complementar {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .formacao .exper-formacao {
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .formacao h2 {
+        font-size: 11px;
+    }
+
+    .formacao .informatica-basica, .formacao .ensino-medio, .formacao .desenvolvimento-de-sistemas, .formacao .javascript, .formacao .sql, .formacao .react {
+        width: 120px;
+        height: 80px;
+    }
+
+    .projetos .exper-projetos {
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .contatos .exper-contatos {
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    .contatos .redes-sociais {
+        margin-left: 50px;
+    }
+
+   
 }
